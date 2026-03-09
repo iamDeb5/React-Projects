@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Syncopate:wght@400;700&display=swap");
+
+:root {
+  --bg-dark: #050505;
+  --bg-card: #0a0a0a;
+  --text-main: #f0f0f0;
+  --text-muted: #555555;
+  --accent-ind: #0077ff;
+  --accent-nz: #e0e0e0;
+
+  --font-body: "Outfit", sans-serif;
+  --font-display: "Syncopate", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--bg-dark);
+  color: var(--text-main);
+  min-height: 100vh;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Base Utility Classes */
+.display-text {
+  font-family: var(--font-display);
+  text-transform: uppercase;
+}
+
+.body-text {
+  font-family: var(--font-body);
+}
